@@ -43,7 +43,7 @@ void sanchiko_filter(int data[], int size, int window) {
 }
 
 int main() {
-    int sensor_readings[] = {4, 7, 6, 1, 8}; // Example from your image
+    int sensor_readings[] = {4, 7, 6, 1, 8}; // Example
     int size = sizeof(sensor_readings) / sizeof(sensor_readings[0]);
     int window_size = 3;
 
